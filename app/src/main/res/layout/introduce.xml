@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/special1"
+    tools:context="com.example.yschang.stepbytravel.IntroduceActivity"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="clicked1"
+            android:text="관광지 정보"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="clicked2"
+            android:text="호텔 정보"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="clicked3"
+            android:text="날씨 조회 " />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="clicked4"
+            android:text="카메라" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
